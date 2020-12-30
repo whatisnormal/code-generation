@@ -8,7 +8,7 @@ var (
 
 //StartApp Initializes controller routes and server in port 8000
 func StartApp() {
-	mapURLs()
+	defineRoutes()
 	if err := router.Run(":8000"); err != nil {
 		panic(err)
 	}
