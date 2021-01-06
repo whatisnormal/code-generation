@@ -50,5 +50,10 @@ func TestUniqueContent(t *testing.T)){
     code2 := "12345"
     filePath2, err2 := repo.Save(context, id, code2)
     
+    f2, err2 := os.Open(filePath2)
+    
+    //Read content and confirm there is only one line
+    ioutil.ReadAll(f2)
+    f2.Close()   
 
 }
