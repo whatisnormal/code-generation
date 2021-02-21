@@ -8,3 +8,10 @@
 
 ## Phase 2 - Confirmation
 1) Receives the code generated in *phase 1* and checks with the last code for the given msisdn. If matches, returns ok, else incorrect input.
+
+# Supported Notifier provider
+## Twillio
+Requires usage of the following command-line arguments
+_TWILLIO_FROM_MSISDN_ - The registered phone number.
+_TWILLIO_ACCOUNT_SID_ - Your Account service id.
+_TWILLIO_AUTH_TOKEN_  - Authorization token.
