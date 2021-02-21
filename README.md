@@ -1,6 +1,8 @@
 # SMS Confirmations
 2 phase application that generates a code for a unique identifier and sends sms. Useful for marketing campaigns or 2-factor security validations.
 
+*Disclaimer*: This project represents my first steps using Golang while following the Clean Architecture (HEXA/Ports-n-Adapters) design 
+
 ## Phase 1 - Code generation
 1) Receives a cell phone number (msisdn) from an external client
 2) Generates a unique alfanumeric code and associates with the msisdn.
