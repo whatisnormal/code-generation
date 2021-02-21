@@ -1,7 +1,7 @@
 # SMS Confirmations
 2 phase application that generates a code for a unique identifier and sends sms. Useful for marketing campaigns or 2-factor security validations.
 
-*Disclaimer*: This project represents my first steps using Golang while following the Clean Architecture (HEXA/Ports-n-Adapters) design 
+**Disclaimer**: This project represents my first steps using Golang while following the Clean Architecture (HEXA/Ports-n-Adapters) design 
 
 ## Phase 1 - Code generation
 1) Receives a cell phone number (msisdn) from an external client
@@ -14,6 +14,9 @@
 # Supported Notifier provider
 ## Twillio
 Requires usage of the following command-line arguments
+
 _TWILLIO_FROM_MSISDN_ - The registered phone number.
+
 _TWILLIO_ACCOUNT_SID_ - Your Account service id.
+
 _TWILLIO_AUTH_TOKEN_  - Authorization token.
